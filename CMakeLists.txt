@@ -6,7 +6,7 @@ add_subdirectory(extern)
 
 # library
 add_library(utf-8-everywhere STATIC
-    include/mam/utf-8-everywhere/convert.h
+    include/mam/utf_8_everywhere/convert.h
     source/convert.cpp
 )
 

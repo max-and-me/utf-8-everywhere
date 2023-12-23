@@ -1,6 +1,6 @@
 // Copyright 2023
 
-#include "mam/utf-8-everywhere/convert.h"
+#include "mam/utf_8_everywhere/convert.h"
 
 int main()
 {
