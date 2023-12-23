@@ -1,6 +1,6 @@
 # UTF-8 Everywhere
 
-[![CMake (Linux, macOS, Windows)](https://github.com/max-and-me/utf-8-everywhere/actions/workflows/cmake.yml/badge.svg)](https://github.com/max-and-me/utf-8-everywhere/actions/workflows/cmake.yml)
+[![CMake (Windows)](https://github.com/max-and-me/utf-8-everywhere/actions/workflows/cmake.yml/badge.svg)](https://github.com/max-and-me/utf-8-everywhere/actions/workflows/cmake.yml)
 
 ## Introduction
 
