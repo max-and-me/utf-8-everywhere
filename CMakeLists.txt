@@ -1,38 +1,38 @@
 cmake_minimum_required(VERSION 3.19.0)
 
-project("String Convert")
+project("UTF-8 Everywhere")
 
 add_subdirectory(extern)
 
 # library
-add_library(string-convert STATIC
-    include/mam/string-convert/string-convert.h
-    source/string-convert.cpp
+add_library(utf-8-everywhere STATIC
+    include/mam/utf-8-everywhere/convert.h
+    source/convert.cpp
 )
 
-target_include_directories(string-convert
+target_include_directories(utf-8-everywhere
     PUBLIC
         include
     PRIVATE
         source
 )
 
-target_compile_features(string-convert 
+target_compile_features(utf-8-everywhere 
     PRIVATE 
         cxx_std_17
 )
 
 # executable
-add_executable(string-convert-app
+add_executable(utf-8-everywhere-app
     source/main.cpp
 )
 
-target_link_libraries(string-convert-app
+target_link_libraries(utf-8-everywhere-app
     PRIVATE
-        string-convert
+        utf-8-everywhere
 )
 
-target_compile_features(string-convert-app
+target_compile_features(utf-8-everywhere-app
     PRIVATE 
         cxx_std_17
 )
