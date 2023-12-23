@@ -3,11 +3,11 @@
 #include <string>
 #include <vector>
 
-namespace mam::str_conv {
+namespace mam::utf_8_everywhere {
 
 //--------------------------------------------------------------------
-std::wstring string_to_wide_string(const std::string& string);
-std::string wide_string_to_string(const std::wstring& wide_string);
+std::wstring convert(const std::string& string);
+std::string convert(const std::wstring& wide_string);
 
 //--------------------------------------------------------------------
-} // namespace mam::str_conv
+} // namespace mam::utf_8_everywhere

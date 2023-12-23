@@ -1,16 +1,29 @@
-# String Convert
+# UTF-8 Everywhere
 
-## Motivation
+## Introduction
 
-Only for Windows! Whenever you pass strings into the Windows API you need to convert them from UTF-8 to UTF-16. Solution is inspired by a [stackoverflow answer](https://stackoverflow.com/a/69410299).
+* Read the [UTF-8 Everywhere manifesto](https://utf8everywhere.org)
+* Solution is inspired by a [stackoverflow answer](https://stackoverflow.com/a/69410299).
+
+> Only needed for Windows!
 
 ## Getting started
+
+To clone and build the project open a command prompt and proceed as follows:
 
 ### Clone and Build
 
 ```sh
-git clone ...
-mkdir ...
-cd ..
-cmake ../
+git clone https://github.com/max-and-me/utf-8-everywhere.git
+mkdir build
+cd buid
+cmake ../utf-8-everywhere
+cmake --build .
 ```
+
+## Getting Help
+
+### See Also
+
+* https://utf8everywhere.org
+* https://stackoverflow.com/a/69410299

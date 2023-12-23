@@ -1,10 +1,10 @@
 // Copyright 2023
 
-#include "mam/string-convert/string-convert.h"
+#include "mam/utf-8-everywhere/convert.h"
 
 int main()
 {
     const std::string name = "Hermann";
-    auto wide_str          = mam::str_conv::string_to_wide_string(name);
+    auto wide_str          = mam::utf_8_everywhere::convert(name);
     return 0;
 }

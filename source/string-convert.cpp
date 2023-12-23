@@ -4,10 +4,10 @@
 #include <stdexcept>
 #include <string>
 
-namespace mam::str_conv {
+namespace mam::utf_8_everywhere {
 
 //--------------------------------------------------------------------
-std::wstring string_to_wide_string(const std::string& string)
+std::wstring convert(const std::string& string)
 {
     if (string.empty())
     {
@@ -29,7 +29,7 @@ std::wstring string_to_wide_string(const std::string& string)
 }
 
 //--------------------------------------------------------------------
-std::string wide_string_to_string(const std::wstring& wide_string)
+std::string convert(const std::wstring& wide_string)
 {
     if (wide_string.empty())
     {
@@ -52,4 +52,4 @@ std::string wide_string_to_string(const std::wstring& wide_string)
 }
 
 //--------------------------------------------------------------------
-} // namespace mam::str_conv
+} // namespace mam::utf_8_everywhere
