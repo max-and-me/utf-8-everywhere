@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <string>
 
-namespace mam::utf_8_everywhere {
+namespace utf_8_everywhere {
 
 //--------------------------------------------------------------------
 std::wstring convert(const std::string& string)
@@ -52,4 +52,4 @@ std::string convert(const std::wstring& wide_string)
 }
 
 //--------------------------------------------------------------------
-} // namespace mam::utf_8_everywhere
+} // namespace utf_8_everywhere

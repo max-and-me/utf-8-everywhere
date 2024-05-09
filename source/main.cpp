@@ -1,10 +1,10 @@
-// Copyright 2023
+// Copyright Max & Me 2023
 
-#include "mam/utf_8_everywhere/convert.h"
+#include "utf_8_everywhere/convert.h"
 
 int main()
 {
     const std::string name = "Hermann";
-    auto wide_str          = mam::utf_8_everywhere::convert(name);
+    auto wide_str          = utf_8_everywhere::convert(name);
     return 0;
 }
